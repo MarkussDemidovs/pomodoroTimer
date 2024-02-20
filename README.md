@@ -9,7 +9,7 @@ and dynamically changes the color scheme of the website based on the current pha
 If you want to try out this project, you're free to download the files and run them on your own machine.
 > Website pending
 
-# License
+## License
 The project uses an MIT license, 
 ### Reuse and Modification:
 Permission: The MIT license explicitly grants users the right to use, copy, modify, merge, distribute, publish, sublicense, and sell copies of the software.
