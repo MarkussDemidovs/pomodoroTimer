@@ -1,5 +1,5 @@
 # Pomodoro Timer
-> Pomodoro timer is a basic web-rendition of the famous "**Pomodoro technique**".
+> Pomodoro timer is a basic web-rendition of the famous "**Pomodoro technique**", which i made for a Latvian teenager programming competition JPTC.
 
 ## Description
 My version of the **Pomodoro timer** allows users to __change time__,
