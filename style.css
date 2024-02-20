@@ -1,0 +1,238 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Open-Sans', sans-serif;
+}
+
+#wip {
+  justify-content: right;
+  text-justify: inter-word;
+  text-align: right;
+  text-decoration: none;
+  color: #F6F6F6;
+  margin-left: 26px;
+}
+
+#wip:active {
+  color: #8a8a8a;
+}
+
+.content {
+  background-color: #fff9f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: white;
+  width: 315px;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  height: 255px;
+
+}
+
+.timer {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #151623;
+  margin-left: auto;
+}
+
+button {
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  font-size: 1rem;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  width: 70px;
+  color: white;
+}
+
+#start {
+  background-color: #ff7f7f;
+  display: block;
+  margin-left: 6px;
+  width: 96%;
+}
+
+#start:hover {
+  background-color: #db6868;
+}
+
+#start:active {
+  background-color: #924646;
+}
+
+.subButton {
+  background-color: hsl(0, 68%, 62%);
+}
+
+.subButton:hover {
+  background-color: rgb(163, 61, 61);
+}
+
+.subButton:active {
+  background-color: rgb(110, 41, 41);
+}
+
+#cycleCounter {
+  font-weight: 100
+}
+
+#optionsMenu {
+  width: 300px;
+  height: 350px;
+  margin-left: 30px;
+
+}
+
+#apply {
+  margin-top: 15px;
+  width: 250px;
+}
+
+#optionsHeader {
+  margin-top: 6px;
+}
+
+#tip {
+  font-size: xx-small;
+}
+
+input {
+  border-radius: 5px;
+  border-color: #c7c7c7;
+  border-width: 0.01px;
+  border-style: solid;
+}
+
+h3 {
+  color: #151623;
+}
+
+h4 {
+  color: #151623;
+}
+
+h1 {
+  color: #151623;
+}
+
+
+#iconBtns {
+  display: flex;
+  font-size: 40px;
+  margin-top: 6px;
+  justify-content: space-around;
+}
+
+.buttonsOptions {
+  background-color: #ca5151;
+}
+
+.buttonsOptions:hover {
+  background-color: #8f3737;
+}
+
+.buttonsOptions:active {
+  background-color: #6d2929;
+}
+
+#musicMenu {
+  height: 50px;
+  width: 250px;
+
+}
+
+/* dark-mode stuff*/
+
+.dark-mode {
+  background-color: #252525;
+  color: #F6F6F6
+}
+
+.dark-mode h1,
+.dark-mode h2,
+.dark-mode h3,
+.dark-mode h4,
+.dark-mode h5,
+.dark-mode h6 {
+  background-color: #191919;
+  color: #F6F6F6;
+}
+
+.dark-mode div {
+  background-color: #191919;
+
+}
+
+.dark-mode .container {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.dark-mode .subButton {
+  background-color: #8a3a3a;
+}
+
+.dark-mode .subButton:hover {
+  background-color: #6e2f2f;
+}
+
+.dark-mode .subButton:active {
+  background-color: #4e2121;
+}
+
+
+.dark-mode #start,
+.dark-mode #dark {
+  background-color: rgb(90, 33, 33);
+}
+
+.dark-mode #start:hover,
+.dark-mode #dark:hover {
+  background-color: rgb(70, 25, 25);
+}
+
+.dark-mode #start:active,
+.dark-mode #dark:active {
+  background-color: rgb(41, 14, 14);
+}
+
+
+/* CSS for larger screens */
+
+.timer {
+  margin-right: 2rem;
+}
+
+.information {
+  display: flex;
+  flex-direction: column;
+}
+
+@media only screen and (max-width: 630px) {
+  #firstContainer {
+    position: fixed;
+    margin-bottom: 300px;
+  }
+
+  #optionsMenu {
+    margin-top: 500px;
+    margin-left: 0px;
+  }
+
+
+}
+
+#navigation {
+  display: flex;
+  flex-direction: row;
+  color: #F6F6F6;
+}

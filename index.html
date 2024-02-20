@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=0.5">
+  <title>Pomodoro Timer</title>
+  <link rel="stylesheet" href="style.css">
+  <!--<script src="https://cdn.tailwindcss.com"></script>-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body class="dark-mode">
+
+  <nav id="navigation">
+    <h4>Pomodoro</h4>
+    <a id="wip" href="https://en.wikipedia.org/wiki/Pomodoro_Technique">What is Pomodoro?</a>
+  </nav>
+  <div class="content dark-mode">
+    <div class="container" id="firstContainer">
+      <div class="timer">
+        <h1 id="timer">
+          25:00
+        </h1>
+
+
+      </div>
+
+
+      <div class="information">
+        <div class="cycleInfo">
+          <h2>Cycles</h2>
+          <h2 id="cycleCounter">0</h2>
+        </div>
+
+        <div class="buttons">
+          <button id="start">
+            Start
+          </button>
+
+          <button id="stop" class="subButton">
+            Pause
+          </button>
+
+          <button id="reset" class="subButton">
+            Reset
+          </button>
+
+          <button id="skip" class="subButton">
+            Skip
+          </button>
+
+          <!--<button class="subButton" id="menuButton">
+                <i class="fa fa-navicon"></i>
+            </button>-->
+          <p id="tip">Tip: Press the reset button for custom lengths!</p>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container" id="optionsMenu">
+      <div class="options">
+        <h1 id="optionsHeader">Options</h1>
+        <br>
+        <h4>Work Length</h4>
+        <input id="workLen" type="number" min="1" placeholder="How many minutes? (25)">
+        <br>
+        <h4>Short Break Length</h4>
+        <input id="shortLen" type="number" min="1" placeholder="How many minutes? (5)">
+        <br>
+
+        <h4>Long Break Length</h4>
+        <input id="longLen" type="number" min="1" placeholder="How many minutes? (15)">
+        <br>
+
+        <h4 id="cyclesText">Cycles before a long break</h4>
+        <input id="cyclesBreak" type="number" min="1" placeholder="How many short breaks before a long one?">
+
+        <br>
+        <div id="iconBtns">
+          <!--<button class="buttonsOptions" id="musicBtn" onclick="playMusic()">
+                    <i class="fa fa-music"></i>
+                </button>-->
+
+          <button class="buttonsOptions" id="dark">
+            Light
+          </button>
+
+        </div>
+        <button id="apply" class="subButton">
+          Apply
+        </button>
+      </div>
+
+
+    </div>
+
+  </div>
+  <script src="script.js">
+  </script>
+
+</body>
+
+</html>
