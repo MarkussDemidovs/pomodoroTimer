@@ -7,7 +7,7 @@ and dynamically changes the color scheme of the website based on the current pha
 
 ## Installation
 If you want to try out this project, you're free to download the files and run them on your own machine.
-> Website pending
+> https://markussdemidovs.github.io/pomodoroTimer/
 
 ## License
 The project uses an MIT license, 
