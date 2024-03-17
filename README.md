@@ -1,9 +1,10 @@
 # Pomodoro Timer
-> Pomodoro timer is a basic web-rendition of the famous "**Pomodoro technique**", which i made for a Latvian teenager programming competition JPTC.
+> My Pomodoro timer website is a basic web-rendition of the famous "**Pomodoro technique**".
 
 ## Description
 My version of the **Pomodoro timer** allows users to __change time__,
 and dynamically changes the color scheme of the website based on the current phase of the pomodoro timer.
+This was built for a coding competition.
 
 ## Installation
 If you want to try out this project, you're free to download the files and run them on your own machine.
